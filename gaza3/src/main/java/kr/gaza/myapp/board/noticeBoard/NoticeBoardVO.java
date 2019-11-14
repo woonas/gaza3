@@ -1,4 +1,4 @@
-package kr.gaza.board.noticeBoard;
+package kr.gaza.myapp.board.noticeBoard;
 
 public class NoticeBoardVO {
 	
@@ -9,13 +9,13 @@ public class NoticeBoardVO {
 	private int hit;
 	private String regdate;
 	
-	// ����¡
-	private int pageNum=1; // ����������
-	private int onePageRecord=10; // ���������� ��µǴ� ���ڵ��
-	private int totalPage; // �� ������ ��
-	private int totalRecord; // �� ���ڵ� ��
-	private int startPage; // ������ �ѹ� ���۰�
-	private int onePageMax=10; // �� �������� ����� ������ ��ȣ ��
+
+	private int pageNum=1;
+	private int onePageRecord=10; 
+	private int totalPage;
+	private int totalRecord;
+	private int startPage;
+	private int onePageMax=10;
 	
 
 	public int getNum() {

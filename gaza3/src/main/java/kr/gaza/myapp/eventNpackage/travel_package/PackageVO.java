@@ -1,4 +1,4 @@
-package kr.gaza.eventNpackage.travel_package;
+package kr.gaza.myapp.eventNpackage.travel_package;
 
 public class PackageVO {
 	private int recommendNum;

@@ -1,8 +1,8 @@
-package kr.gaza.flight.booking;
+package kr.gaza.myapp.flight.booking;
 
-import kr.gaza.aviation.flight.FlightVO;
-import kr.gaza.aviation.product.ProductVO;
-import kr.gaza.aviation.seatreserve.SeatReserveVO;
+import kr.gaza.myapp.aviation.flight.FlightVO;
+import kr.gaza.myapp.aviation.product.ProductVO;
+import kr.gaza.myapp.aviation.seatreserve.SeatReserveVO;
 
 import java.util.ArrayList;
 import java.util.List;

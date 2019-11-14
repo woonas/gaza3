@@ -520,3 +520,9 @@
 
 .banner-compensation-1 { background-image: url(../IMG/information/baggage_compensation.png); }
 .banner-compensation-2 { background-image: url(../IMG/information/baggage_compensation.png); }
+
+/* ----------------------------------------------- */
+/* 기내통신 판매 안내 info_baggage_compensation.jsp */
+/* ----------------------------------------------- */
+
+.banner-domestic-1 { background-image: url(../IMG/information/domestic_logo.png); }

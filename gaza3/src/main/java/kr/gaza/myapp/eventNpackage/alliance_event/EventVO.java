@@ -1,4 +1,4 @@
-package kr.gaza.eventNpackage.alliance_event;
+package kr.gaza.myapp.eventNpackage.alliance_event;
 
 public class EventVO {
 	private int eventNum;

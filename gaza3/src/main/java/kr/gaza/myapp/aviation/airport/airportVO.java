@@ -1,4 +1,4 @@
-package kr.gaza.aviation.airport;
+package kr.gaza.myapp.aviation.airport;
 
 public class airportVO {
     private int airportNum;

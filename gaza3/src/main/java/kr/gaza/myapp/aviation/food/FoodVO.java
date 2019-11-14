@@ -1,4 +1,4 @@
-package kr.gaza.aviation.food;
+package kr.gaza.myapp.aviation.food;
 
 public class FoodVO {
     private int foodNum;

@@ -1,4 +1,4 @@
-package kr.gaza.aviation.personType;
+package kr.gaza.myapp.aviation.personType;
 
 public class peopleVO {
     private int peopleNum;

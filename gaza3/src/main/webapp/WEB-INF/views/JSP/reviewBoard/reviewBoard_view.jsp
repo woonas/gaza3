@@ -32,7 +32,7 @@
 </script>
 </head>
 <body>
-	<%@ include file="../../common/nav.jspf" %>
+	<%@ include file="../common/nav.jspf" %>
 	<section class="content">
 		<h3>고객의 말씀</h3>
 		<hr/>
@@ -84,7 +84,7 @@
 		</div>
 		</div>
 	</section>
-	<%@ include file="../../common/footer.jspf" %>
+	<%@ include file="../common/footer.jspf" %>
 	<script src="../../../JS/common.js"></script>
 </body>
 </html>

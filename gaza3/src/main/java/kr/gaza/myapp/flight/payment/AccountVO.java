@@ -1,4 +1,4 @@
-package kr.gaza.flight.payment;
+package kr.gaza.myapp.flight.payment;
 
 public class AccountVO {
     private int accountNum;

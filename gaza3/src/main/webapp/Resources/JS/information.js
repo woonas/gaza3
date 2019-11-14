@@ -74,6 +74,8 @@ const chatService = () => {
            tabEvent('.tab-menu1');
        }else if (location.pathname.indexOf('baggage_free') !== -1) {
            tabEvent('.tab-menu1');
+       }else if (location.pathname.indexOf('baggage_compensation') !== -1) {
+           tabEvent('.tab-menu1');
        }
        
    }

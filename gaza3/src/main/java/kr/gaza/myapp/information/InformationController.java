@@ -114,4 +114,9 @@ public class InformationController {
 	public String baggagefree() {
 		return "JSP/serviceinfo/info_baggage_free";
 	}
+	
+	@RequestMapping("/JSP/serviceinfo/baggage_compensation")
+	public String compensation() {
+		return "JSP/serviceinfo/info_baggage_compensation";
+	}
 }

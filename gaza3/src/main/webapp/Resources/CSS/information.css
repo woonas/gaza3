@@ -513,3 +513,10 @@
 .banner-baggagefree-1 { background-image: url(../IMG/information/baggagefree.png); }
 .banner-baggagefree-2 { background-image: url(../IMG/information/baggagefree.png); }
 .banner-baggagefree-3 { background-image: url(../IMG/information/baggagefree.png); }
+
+/* ----------------------------------------------- */
+/* 수하물보상 안내 info_baggage_compensation.jsp */
+/* ----------------------------------------------- */
+
+.banner-compensation-1 { background-image: url(../IMG/information/baggage_compensation.png); }
+.banner-compensation-2 { background-image: url(../IMG/information/baggage_compensation.png); }

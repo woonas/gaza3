@@ -133,7 +133,7 @@ public class MemberVO {
 		this.t3 = t3;
 	}
 	public String getAltTel() {
-		String alt = "ï¿½ï¿½ï¿½ï¿½";
+		String alt = "¾øÀ½";
 		if(getA1()!=null) {
 			alt = a1+"-"+a2+"-"+a3;
 		}

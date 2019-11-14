@@ -187,6 +187,17 @@ const agreement_check = () => {
                 box.checked = check_all.checked;
             });
         });
+        const nextBtn = document.getElementById("nextBtn");
+        const signup2Frm = document.getElementById("signup2Frm");
+        nextBtn.addEventListener('click', function(){
+        	const agree1 = document.getElementById("agree_personalCollectionOption")
+        	const agree2 = document.getElementById("agree_personalProvide")
+        	if(agree1.checked) document.querySelector("input[name=agree1]").value="on";
+        	else document.querySelector("input[name=agree1]").value="off";
+        	if(agree2.checked) document.querySelector("input[name=agree2]").value="on";
+        	else document.querySelector("input[name=agree2]").value="off";
+        	signup2Frm.submit();
+        });
     }
 
     /* signup3 */
@@ -216,14 +227,13 @@ const agreement_check = () => {
         var isOk="";
         document.getElementById('btn-dupCheck2').addEventListener('click', () => {
             if (insideId.value.length !== 0) {
-            		var params = "txtID="+$("#idChkFrm").val();
-            		/* Todo */
             		$.ajax({
-            			type: "get",
             			url : "idChk",
-            			data : params,
+            			type: "POST",
+            			data : $("#idChkFrm").serialize(),
             			success : function(result){
             				if(eval(result)){
+            					
             					target.innerHTML = `'${insideId.value}' <span class='font-gray1'>는 </span><span class='font-red'>사용할 수 없습니다.</span>`;
             					btnUse.setAttribute("disabled","disabled");
             					btnUse.style.opacity = 0.5;

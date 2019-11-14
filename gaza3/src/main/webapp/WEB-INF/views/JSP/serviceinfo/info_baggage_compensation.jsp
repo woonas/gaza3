@@ -23,7 +23,7 @@
 
             <div id="tab-1-container">
                 <div class="info-banner">
-                    <div class="banner-infant-1">
+                    <div class="banner-compensation-1">
                         <div>
                             <p>아시아나항공은 수하물을 운송, 보관 및 관리하는 과정에서 회사의 고의 또는 과실로<br/>수하물에 손해가 발생한 경우에 한하여 보상 책임을 집니다.</p>
                             
@@ -92,7 +92,7 @@
             	
             <div id="tab-2-container"  class="hidden">
                 <div class="info-banner">
-                    <div class="banner-infant-2">
+                    <div class="banner-compensation-2">
                         <div>
                             <p>아시아나항공은 수하물을 운송, 보관 및 관리하는 과정에서 회사의 고의 또는 과실로<br/> 수하물에 손해가 발생한 경우에 한하여 보상 책임을 집니다. </p>
                         </div>

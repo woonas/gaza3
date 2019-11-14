@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>가자에어 메인</title>
+        <title>가자에어</title>
         <!-- css -->
         <link rel="stylesheet" href="<%=path %>/Resources/CSS/index.css" type="text/css"/>
         <!-- Lightpick CSS -->

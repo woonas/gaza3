@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class InformationController {
 	@RequestMapping("/JSP/serviceinfo/{var}")
 	public String infoPage(@PathVariable String var) {
-		
 		return "JSP/serviceinfo/info_" + var;
 	}
 }

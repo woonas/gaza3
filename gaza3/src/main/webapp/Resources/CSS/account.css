@@ -547,7 +547,7 @@ fieldset>.form-group:last-of-type { border-bottom: 1px solid #aaa; }
     border-radius: 0;
 }
 
-.form-group input:read-only { background-color: #f3f3f3; }
+.form-group input:read-only { background-color: #fff; }
 
 .form-group .radio { text-align: left; }
 

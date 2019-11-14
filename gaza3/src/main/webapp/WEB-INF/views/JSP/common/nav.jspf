@@ -7,7 +7,7 @@
 			<ul>
 				<li>
 					<div>
-                        <a href="<%=path %>/index.do">
+                        <a href="<%=path %>/">
 						    <img src="<%=path %>/Resources/IMG/logo/logo_basic.png"/>
 					    </a>
 					</div>
@@ -17,7 +17,7 @@
 					<div><a href="#">고객서비스</a></div>
 					<div>
                         <c:if test="${memberName==null }">
-                            <a href="/myapp/JSP/account/login/loginView">로그인</a>
+                            <a href="<%=jsp %>/account/login/loginView">로그인</a>
                         </c:if>
                         <c:if test="${memberName!=null }">
                             <a href="<%=path %>/Resources/JSP/mypage/myhome.do">마이홈</a>
@@ -58,7 +58,7 @@
 								<c:if test="${memberName!=null }">
                                     <li><a href="<%=path %>/Resources/JSP/mypage/account_info.do">회원정보</a></li>
                                     <li><a href="<%=path %>/Resources/HTML/reserveStatus.html">예약 현황</a></li>
-                                    <li><a href="JSP/account/login/logout">로그아웃</a></li>
+                                    <li><a href="<%=jsp %>/account/login/logout">로그아웃</a></li>
                                     <li><a href="<%=path %>/Resources/JSP/mypage/account_delete.do">회원탈퇴</a></li>
 								</c:if>
 							</ul>

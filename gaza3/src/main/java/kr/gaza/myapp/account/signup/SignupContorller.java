@@ -32,8 +32,8 @@ public class SignupContorller {
 	}
 	//signup3 페이지 이동.
 	@RequestMapping(value="/JSP/account/signup/signup3", method=RequestMethod.POST)
-	public String signupView3(@RequestParam("agree_personalCollectionOption") String agree1, 
-			@RequestParam("agree_personalProvide") String agree2, HttpServletRequest req) {
+	public String signupView3(@RequestParam("agree1") String agree1, 
+			@RequestParam("agree2") String agree2, HttpServletRequest req) {
 			HttpSession sess = req.getSession();
 			sess.setAttribute("agree_personalCollectionOption", agree1);
 			sess.setAttribute("agree_personalProvide", agree2);
@@ -72,10 +72,9 @@ public class SignupContorller {
 	//Todo
 	//String id를 매개변수로 받아왔는데 null 값이 들어옴.
 	//중복 id체크
-	@RequestMapping(value="/JSP/account/signup/idChk", method=RequestMethod.GET, produces="application/text;charset=UTF-8")
+	@RequestMapping(value="/JSP/account/signup/idChk", method=RequestMethod.POST, produces="application/text;charset=UTF-8")
 	@ResponseBody
-	public ModelAndView idDupChk(HttpServletRequest req) {
-		String id = req.getParameter("txtID");
+	public ModelAndView idDupChk(@RequestParam("txtID") String id, HttpServletRequest req) {
 		MemberInterface dao = sqlSession.getMapper(MemberInterface.class);
 		boolean tf = dao.idCheck(id);
 		String isOk = String.valueOf(tf);

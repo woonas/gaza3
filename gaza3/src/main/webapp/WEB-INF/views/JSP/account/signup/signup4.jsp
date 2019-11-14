@@ -107,7 +107,7 @@
                         <div class="form-group">
                             <label class="col-fifth control-label">아이디</label>
                             <div class="col-xs-4">
-                                <input type="text" class="form-control" name="username" id="memberId" required placeholder="영문+숫자 6~15자리" onkeypress="inputTypeCheck()">
+                                <input type="text" class="form-control" name="memberId" id="username" required placeholder="영문+숫자 6~15자리" onkeypress="inputTypeCheck()">
                             </div>
                             <div>
                                 <input type="button" value="중복체크" class="blueBtn" id="btn-dupCheck">

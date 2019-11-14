@@ -1,4 +1,4 @@
-package kr.gaza.aviation.seatreserve;
+package kr.gaza.myapp.aviation.seatreserve;
 
 public class SeatReserveVO {
     private int seatReserveNum;

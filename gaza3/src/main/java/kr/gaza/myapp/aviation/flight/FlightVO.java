@@ -1,4 +1,4 @@
-package kr.gaza.aviation.flight;
+package kr.gaza.myapp.aviation.flight;
 
 public class FlightVO {
     private int flightNum;

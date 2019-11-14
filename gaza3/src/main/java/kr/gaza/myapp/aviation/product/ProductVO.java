@@ -1,4 +1,4 @@
-package kr.gaza.aviation.product;
+package kr.gaza.myapp.aviation.product;
 
 public class ProductVO {
     private int productNum;

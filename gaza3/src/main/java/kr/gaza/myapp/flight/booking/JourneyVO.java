@@ -1,4 +1,4 @@
-package kr.gaza.flight.booking;
+package kr.gaza.myapp.flight.booking;
 
 public class JourneyVO {
     private String airportFrom;

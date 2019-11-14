@@ -1,4 +1,4 @@
-package kr.gaza.aviation.seatType;
+package kr.gaza.myapp.aviation.seatType;
 
 public class seatVO {
     private int seatType;

@@ -1,4 +1,4 @@
-package kr.gaza.board.reviewBoard;
+package kr.gaza.myapp.board.reviewBoard;
 
 public class BoardVO {
 	
